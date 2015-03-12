@@ -231,11 +231,23 @@ textarea:disabled {
 		color: #bbb;
 	}
 
+/* Goback home button */
+#back-home {
+    position: absolute;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 140px;
+}
+.back-home {
+    color: #fffff0;
+    font-size: 1.2em;
+}
+
 /* Searchbox */
 .searchbox input[type="search"] {
 	position: relative;
 	font-size: 1.2em;
-	padding-left: 1.5em;
+    padding-left: 1.5em;
 	background: #fff url('../img/actions/search.svg') no-repeat .5em center;
 	border: 0;
 	border-radius: 2em;

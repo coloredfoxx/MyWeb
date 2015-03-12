@@ -37,16 +37,16 @@
 	</head>
 	<body id="<?php p($_['bodyid']);?>">
 	<noscript><div id="nojavascript"><div><?php print_unescaped($l->t('This application requires JavaScript for correct operation. Please <a href="http://enable-javascript.com/" target="_blank">enable JavaScript</a> and reload the page.')); ?></div></div></noscript>
-	<div id="notification-container">
+    <div id="notification-container">
 		<div id="notification"></div>
 		<?php if ($_['updateAvailable']): ?>
 			<div id="update-notification" style="display: inline;"><a href="<?php print_unescaped($_['updateLink']); ?>"><?php p($l->t('%s is available. Get more information on how to update.', array($_['updateVersion']))); ?></a></div>
 		<?php endif; ?>
 	</div>
 	<header><div id="header">
-			<a href="<?php print_unescaped(link_to('', 'index.php')); ?>" title="" id="owncloud">
-				<div class="logo-icon svg"></div>
-			</a>
+            <a href="<?php print_unescaped(link_to('', 'index.php')); ?>" title="" id="owncloud">
+			<div class="logo-icon svg"></div>
+            </a>
 			<a href="#" class="menutoggle">
 				<div class="header-appname">
 					<?php
@@ -58,7 +58,10 @@
 					?>
 				</div>
 				<div class="icon-caret svg"></div>
-			</a>
+            </a>
+            <div id="back-home">
+                <a class="back-home" href="../../../../home.html">Home</a>
+            </div>
 			<div id="logo-claim" style="display:none;"><?php p($theme->getLogoClaim()); ?></div>
 			<div id="settings" class="svg">
 				<span id="expand" tabindex="0" role="link">
