@@ -1,0 +1,130 @@
+.embeddedOverlay {
+display:none;
+position:fixed;
+left:0px;
+top:0px;
+color:#fff;
+width:100%;
+height:100%;
+z-index:1000;
+background-color:#000;
+}
+
+.embeddedOverlayMenu {
+height:52px;
+}
+
+.embeddedOverlayMenu a {
+color:#fff;
+}
+
+.embeddedOverlayMenu select {
+margin:0px;
+padding:15px 0px 15px 0px;
+border:0px;
+font-weight:normal;
+background-color:#000;
+border-radius:0px;
+}
+
+.embeddedOverlayMenu select, .embeddedOverlayMenu div, .infoOverlay {
+font-family:verdana;
+font-size:12px;
+}
+
+.embeddedOverlayMenu select, .embeddedOverlayMenu div {
+cursor:pointer;
+height:52px;
+min-width:52px;
+float:left;
+line-height:52px;
+padding-left:0.5em;
+padding-right:0.5em;
+color:#fff;
+}
+
+.embeddedOverlayMenu select:hover, .embeddedOverlayMenu div:hover {
+background-color:#333;
+}
+
+.embeddedOverlayMenu div {
+text-align:center;
+}
+
+.embeddedOverlayMenu #stream {
+}
+
+.embeddedOverlayMenu #timeout {
+}
+
+.embeddedOverlayMenu #tinyUrl {
+}
+
+.embeddedOverlayMenu #switchAudioTrack {
+display:none;
+}
+
+.embeddedOverlayMenu #switchSubtitleTrack {
+display:none;
+}
+
+.embeddedOverlayMenu #close {
+clear:both;
+position:absolute;
+top:0px;
+right:0px;
+background-image:url("../../../core/img/actions/view-close.svg");
+background-position:center center;
+background-repeat:no-repeat;
+}
+
+.embeddedOverlayVideo {
+position:absolute;
+top:52px;
+left:1em;
+bottom:1em;
+right:1em;
+}
+
+.infoOverlay {
+position:fixed;
+left:10px;
+top:10px;
+background-color:#666;
+border:1px solid #999;
+z-index:1001;
+padding:0.5em;
+color:#fff;
+font-weight:bold;
+display:none;
+}
+
+/*#vlc {
+position:absolute;
+left:500px;
+top:-250px;
+width:300px;
+height:300px;
+}*/
+
+.embeddedOverlayVideo embed {
+width:100%;
+height:100%;
+}
+
+.embeddedTable, .embeddedInfo {
+padding:1em;
+}
+
+.embeddedTable .header td {
+font-weight:bold;
+}
+
+.embeddedTable td {
+padding-right:1em;
+}
+
+.embeddedTable a {
+color:#f00;
+}
+

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+    <id>files_embeddedvideo</id>
+    <name>Embedded Videostream</name>
+    <description>Extends ownCloud for embedded video playback like VLC Plugin.</description>
+    <licence>AGPL</licence>
+    <author>endzeit</author>
+    <require>6</require>
+    <shipped>true</shipped>
+    <default_enable/>
+</info>
