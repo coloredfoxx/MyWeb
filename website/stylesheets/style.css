@@ -1,0 +1,16 @@
+a {
+	text-decoration: none;
+	color: brown;
+}
+
+#navigation_bar {
+
+
+}
+
+#navigation_links {
+	background-color: #a7a4a4;
+	background-image: url('images/test_bkg.png');
+	font-size: 20px;
+	
+}

@@ -1,0 +1,24 @@
+<html>
+</head>
+<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+<div id="header">
+	<img src="images/logo.png" ></img>
+	<p>User ID: <input type="text"></input></p>
+	<p>Password: <input type="password"></input></p>
+	<input type="submit" Value="Login"></input>
+</div>
+<hr>
+<div id="navigation_bar">
+	<a id="navigation_links" href="home_page.html">Home</a>
+	<a id="navigation_links" href="about.html" >About</a>
+	<a id="navigation_links" href="projects.html" >Projects</a>
+	<a id="navigation_links" href="ent.html" >Fun Stuff!</a>
+	<a id="navigation_links" href="contact.html" >Contact</a>
+</div>
+<hr>
+</body>
+
+</html>
