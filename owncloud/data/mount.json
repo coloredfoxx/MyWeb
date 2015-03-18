@@ -1,0 +1,22 @@
+{
+    "user": {
+        "Test_Subject1": {
+            "\/$user\/files\/External USB": {
+                "class": "\\OC\\Files\\Storage\\Local",
+                "options": {
+                    "datadir": "\/media\/hkandula\/VOLUMELABEL"
+                },
+                "priority": 150
+            }
+        },
+        "hkandula": {
+            "\/$user\/files\/External USB": {
+                "class": "\\OC\\Files\\Storage\\Local",
+                "options": {
+                    "datadir": "\/media\/hkandula\/VOLUMELABEL"
+                },
+                "priority": 150
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>ColFox</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+<div id="header">
+</div>
+
+<div class="container">
+	<div class="masthead">
+		<h3 class="muted">ColFox</h3>
+		<div class="navbar" id="navigation_bar">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav">
+						<li class="active">
+						<a href="index.html">Home</a>
+						</li>
+						<li>
+						<a href="about.html" >About</a>
+						</li>
+						<li>
+						<a href="projects.html" >Projects</a>
+						</li>
+						<li>
+						<a  href="blog.html" >Blog</a>
+						</li>
+						<li>
+						<a href="contact.html" >Contact</a>
+						</li>
+                        <li>
+                        <a href="login.php">Login</a>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    <form action="login_page.php" method="POST">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Username</label>
+        <input type="text" name="username" class="form-control" id="exampleInputEmail1" placeholder="Enter Username">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+</body>
+</html>
