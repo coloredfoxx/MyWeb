@@ -51,6 +51,7 @@
 		<input type="submit" id="submit" class="login primary" value="<?php p($l->t('Log in')); ?>" disabled="disabled"/>
 	</fieldset>
 </form>
+<a class="back-home" href="../templates/internal_page.html">Home</p>
 <?php if (!empty($_['alt_login'])) { ?>
 <form id="alternative-logins">
 	<fieldset>
